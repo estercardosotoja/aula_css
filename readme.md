@@ -1,4 +1,4 @@
-# Aula Básica de HTML
+# Aula Básica de CSS
 
-Repositório destinado para demonstração do uso das TAGS em HTML.
+Repositório destinado para demonstração do uso dos seletores em CSS.
  
