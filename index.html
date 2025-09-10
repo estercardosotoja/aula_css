@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de Demostração HTML</title>
+    <!-- 2º Forma = Estilização no cabeçalho do HTML -->
+    <!--  <style>
+        h1{
+            color: blue;
+        }
+    </style> --> 
+
+    <!-- 3º Forma = Arquivo de css externo ao HTML -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Comentário --> 
+ 
+    <!-- Titulos --> 
+    <!-- 1º Forma = Diretamente na TAG HTML adicionando estilo: -->
+    <!--    <h1 style="color:brown"> Titulo 1 </h1> -->
+ 
+    <h1> Titulo 1 </h1>
+    <h2 class="subtitulo"> Titulo 2 </h2>
+    <h3 id="titulo-segundario"> Titulo 3 </h3>
+    <h4> Titulo 4 </h4>
+    <h5 class="subtitulo"> Titulo 5 </h5>
+    <h6> Titulo 6 </h6>
+
+    <h1 class="subtitulo"> Titulo 1 </h1>
+
+    <!-- Paráfos --> 
+
+    <p> Posso ter um paragrafo de texto,
+        para quando preciso adicionar 
+        <br>
+        um monte de texto. 
+    </p>
+
+    <!-- Formatação de Texto -->
+    <i> Itálico </i>
+    <u> Sublinado </u>
+    <strong> Negrito</strong>
+    <mark> Texto Destacado </mark>
+
+    <!-- Listas -->
+
+        <!-- Lista Númeral -->
+        <ol> 
+            <li> Item 1</li>
+            <li> Item 2</li>
+            <li> Item 3</li>
+        </ol>
+
+        <!-- Lista em Tópicos -->
+        <ul> 
+            <li> Item 1</li>
+            <li> Item 2</li>
+            <li> Item 3</li>
+        </ul>
+
+    <!-- Links -->
+    <a href="www.google.com"> Página do Google</a>
+
+    <!-- Imagem -->
+    <img src="./logo.png" alt="Descrição de Imagem">
+
+   <!-- Tabelas -->
+    <table>
+        <thead>
+            <tr>
+                <th> Coluna1 </th>
+                <th> Coluna2 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Formulários -->
+     <form>
+        <h2> Formulário de Exemplo</h2>
+        <label class="nome_campos">Nome</label>
+        <input type="text"> 
+
+        <label class="nome_campos">Email</label>
+        <input type="email"> 
+
+        <label class="nome_campos">Senha</label>
+        <input type="password" placeholder=""> 
+
+        <label class="nome_campos">Descrição</label>
+        <textarea> </textarea>
+         
+        <label class="nome_campos" >File (Arquivo) </label>
+        <input type="file"> 
+        
+        <label class="nome_campos">Cores </label>
+        <input type="color">
+        
+        <label class="nome_campos">Data </label>
+        <input type="date">
+        
+        <label class="nome_campos">Hora </label>
+        <input type="time">
+
+        <label class="nome_campos">Genero </label>
+        <select>
+            <option value="masculino"> Masculino</option>
+            <option value="feminino"> Feminino</option>
+            <option value="prefiro nao dizer"> Prefiro não dizer</option>
+        </select>
+
+        <button type="submit"> Enviar </button>
+     </form>
+
+     <nav>
+        <ul>
+            <li> <a href="./contato.html"> Página Contato </a></li>
+            <li> Página de Principal</li>
+        </ul>
+     </nav>
+
+     <details>
+        <summary> Dados Adicionais </summary>
+        <p>Dados aicionais estão aqui. </p>
+     </details>
+
+   <br>
+      <br>
+     <address>
+        Endereço: Rua Exemplo, 123 <br>
+        Email: exemplo@email.com
+     </address>
+</body>
+
+</html>
